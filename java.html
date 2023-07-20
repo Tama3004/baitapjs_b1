@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- js -->
+    <!-- Bài 1 -->
+    <h1>Bài 1</h1>
+    <h3>Tiền lương 1 ngày</h3>
+    <input type="text" id="tienLuong" value="100000" disabled />
+    <h3>Số ngày làm</h3>
+    <input type="text" name="" id="ngayLam" />
+    <br />
+    <button onclick="ketqua()">Tính</button>
+    <h3>Kết quả: <span id="tongCong"></span></h3>
+    <hr />
+    <!-- Bài 2 -->
+    <h1>Bài 2</h1>
+    <h2>Tính trung bình</h2>
+    <input type="text" id="number1" />
+    <input type="text" id="number2" />
+    <input type="text" id="number3" />
+    <input type="text" id="number4" />
+    <input type="text" id="number5" />
+    <button onclick="tinhTB()">Tính</button>
+    <h3>Kết quả: <span id="ketquaTB"></span></h3>
+    <hr />
+    <!-- Bai 3 -->
+    <h1>Bài 3</h1>
+    <h2>Quy đổi USD -> VND</h2>
+    <input type="text" id="money" />
+    <button onclick="quyDoi()">Quy đổi USD -> VND</button>
+    <h3>Kết quả: <span id="ketqua_QD"></span></h3>
+    <hr />
+    <!-- Bai 4 -->
+    <h1>Bài 4</h1>
+    <div class="form-group">
+      <label for="">Chiều dài</label>
+      <input type="text" class="form-control" id="dai" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="">Chiều rộng</label>
+      <input type="text" class="form-control" id="rong" placeholder="" />
+    </div>
+    <button onclick="tinhPS()" id="tinh_PS">Tinh Chu vi, Dien tich</button>
+    <h3>Ket qua: <span id="ketqua_PS"></span></h3>
+    <!-- Bai 5 -->
+    <h1>Bài 5</h1>
+    <div class="form-group">
+      <label for="">Nhập số</label>
+      <input type="text" class="form-control" id="number" placeholder="" />
+    </div>
+    <button onclick="tinhTong()" id="tinh_tong">Tính</button>
+    <h3>Ket qua: <span id="ketqua_tong"></span></h3>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./java.js"></script>
+  </body>
+</html>
